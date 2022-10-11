@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Responsive Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="form-title">Registration</h1>
+            <form action="#">
+                <div class="main-user-info">
+                    <div class="user-input-box">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Enter Full Name">
+                    </div>
+                    <div class="user-input-box">
+                        <label for="username">Full User Name</label>
+                        <input type="text" id="username" name="usernamename" placeholder="Enter Full  User Name">
+                    </div>
+                    <div class="user-input-box">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter Email Id">
+                    </div>
+                    <div class="user-input-box">
+                        <label for="phonenumber">Phone Number</label>
+                        <input type="text" id="phonenumber" name="phonenumber" placeholder="Enter Phone Number">
+                    </div>
+                    <div class="user-input-box">
+                        <label for="passwd">Password</label>
+                        <input type="password" id="passwd" name="passwd" placeholder="Enter Password">
+                    </div>
+                    <div class="user-input-box">
+                        <label for="cpasswd"> Confirm Password</label>
+                        <input type="password" id="cpasswd" name="cpasswd" placeholder="Confirm Password">
+                    </div>
+                </div>
+                <div class="gender-detalis">
+                    <span class="gender-title">Gender</span>
+                    <div class="gender-category">
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="others">
+                        <label for="others">Others</label>
+                    </div>
+                </div>
+                <div class="form-submit-btn">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
